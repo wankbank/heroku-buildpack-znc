@@ -32,5 +32,7 @@ fi
 # make
 echo "-----> Compiling with Make"
 make 2>&1 | indent
-echo "-----> Installing"
-make install | indent
+
+# make install
+# echo "-----> Installing"
+# make install | indent
